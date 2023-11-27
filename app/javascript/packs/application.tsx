@@ -705,7 +705,7 @@ import { lazyHighlightAll } from '@/utils/lazy-highlight-all'
 import { addAnchorsToDocsHeaders } from '@/utils/anchor-docs-headers'
 import { AnalyzerTags } from '@/components/track/build/AnalyzerTags'
 import { AnalyzerTagsType } from '@/components/track/build/analyzer-tags/AnalyzerTags.types'
-import { ActivityTickerProps } from '@/components/track/ActivityTicker'
+import { ActivityTickerProps } from '@/components/track/activity-ticker/ActivityTicker.types'
 
 document.addEventListener('turbo:load', () => {
   showSiteFooter()
